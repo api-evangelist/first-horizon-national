@@ -1,0 +1,145 @@
+aid: first-horizon-national
+name: First Horizon Corporation
+description: >-
+  First Horizon Corporation (NYSE: FHN), headquartered in Memphis, Tennessee,
+  is a regional financial-services holding company operating across 12
+  southeastern U.S. states through its principal subsidiary, First Horizon
+  Bank. The franchise reports roughly $84 billion in total assets, $67 billion
+  in deposits, and approximately 410 banking centers as of Q1 2026. Business
+  lines include consumer and small-business banking, commercial and specialty
+  lending, private banking and wealth management, and FHN Financial fixed-
+  income capital markets. The company was founded in 1864 as First National
+  Bank of Memphis, rebranded as First Tennessee in 1977, became First Horizon
+  National Corporation in 2004, and shortened its name to First Horizon
+  Corporation following the 2020 IberiaBank merger. In February 2022 First
+  Horizon announced a $13.4 billion all-cash acquisition by Toronto-Dominion
+  Bank; the parties mutually terminated the merger on May 4, 2023, citing
+  regulatory uncertainty around the deal's closing timeline, with TD paying
+  a $225 million termination fee plus a previously agreed $25 million
+  reimbursement to First Horizon. First Horizon does not publish a public
+  developer API portal. Customer account data is reachable for fintech use
+  cases only through US open-banking aggregators (Plaid, MX, Finicity, Akoya)
+  and through emerging Financial Data Exchange (FDX) APIs that will be
+  required of covered data providers under the CFPB Section 1033 Personal
+  Financial Data Rights rule. Commercial APIs for treasury management, ACH
+  origination, wire initiation, and host-to-host file transfer are available
+  to corporate clients under direct contract through First Horizon Treasury
+  Management Services but are not publicly documented.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+access: 3rd-Party
+kind: company
+position: Consumer
+tags:
+  - Banking
+  - Commercial Banking
+  - Consumer Banking
+  - Financial Services
+  - Wealth Management
+  - Capital Markets
+  - Treasury Management
+  - Regional Bank
+  - Fortune 1000
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/first-horizon-national/refs/heads/main/apis.yml
+created: '2026-05-22'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.firsthorizon.com
+  - type: AboutUs
+    url: https://www.firsthorizon.com/About-Us
+  - type: Personal
+    url: https://www.firsthorizon.com/Personal
+  - type: SmallBusiness
+    url: https://www.firsthorizon.com/Small-Business
+  - type: Commercial
+    url: https://www.firsthorizon.com/Commercial-Banking
+  - type: WealthManagement
+    url: https://www.firsthorizon.com/Wealth-Management
+  - type: TreasuryManagement
+    url: https://www.firsthorizon.com/Commercial-Banking/Treasury-Management
+  - type: CapitalMarkets
+    url: https://www.fhnfinancial.com/
+  - type: InvestorRelations
+    url: https://ir.firsthorizon.com
+  - type: Newsroom
+    url: https://newsroom.firsthorizon.com
+  - type: PressReleases
+    url: https://newsroom.firsthorizon.com/news-releases
+  - type: Careers
+    url: https://www.firsthorizon.com/Careers
+  - type: PrivacyCenter
+    url: https://www.firsthorizon.com/Privacy
+  - type: SecurityCenter
+    url: https://www.firsthorizon.com/Security
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/first-horizon-bank
+  - type: GitHubOrganization
+    url: https://github.com/First-horizon
+  - type: SECFilings
+    url: https://ir.firsthorizon.com/financial-information/sec-filings
+  - type: AggregatorPlaid
+    url: https://plaid.com/institutions/
+  - type: AggregatorMX
+    url: https://www.mx.com/
+  - type: AggregatorFinicity
+    url: https://www.finicity.com/
+  - type: AggregatorAkoya
+    url: https://akoya.com/
+  - type: FDXStandard
+    url: https://financialdataexchange.org/
+  - type: CFPB1033Rule
+    url: https://www.consumerfinance.gov/personal-financial-data-rights/
+x-corporate:
+  ticker: NYSE:FHN
+  headquarters: Memphis, Tennessee, USA
+  founded: 1864
+  ceo: Bryan Jordan
+  employees: 7600
+  total-assets-usd-billions: 84.1
+  deposits-usd-billions: 67.5
+  loans-usd-billions: 64.2
+  banking-centers: 410
+  states-served: 12
+  former-names:
+    - First National Bank of Memphis (1864-1977)
+    - First Tennessee Bank (1977-2004)
+    - First Horizon National Corporation (2004-2020)
+  subsidiaries:
+    - First Horizon Bank
+    - FHN Financial (fixed-income capital markets)
+    - First Horizon Advisors (wealth management)
+  fortune-rank: 927
+x-mergers:
+  - name: IberiaBank Corporation
+    type: completed
+    closed: '2020-07-01'
+    value-usd-billions: ~3.9
+    notes: >-
+      All-stock merger of equals; combined entity rebranded as First Horizon
+      Corporation with roughly $79B in pro forma assets at close.
+  - name: Toronto-Dominion Bank (TD)
+    type: terminated
+    announced: '2022-02-28'
+    terminated: '2023-05-04'
+    value-usd-billions: 13.4
+    structure: All-cash, $25.00 per share
+    termination-fee-usd-millions: 225
+    additional-reimbursement-usd-millions: 25
+    reason: >-
+      Regulatory uncertainty around the timeline for receiving the required
+      U.S. and Canadian bank-regulatory approvals; TD could not predict when
+      approvals would be obtained, and the parties mutually agreed the deal
+      would not close in a commercially reasonable timeframe. The termination
+      announcement followed a year of heightened regulator scrutiny across
+      large bank M&A and TD's own AML compliance issues, which later resulted
+      in a $3B+ U.S. AML settlement in 2024.
+    sources:
+      - https://en.wikipedia.org/wiki/First_Horizon_Corporation
+      - https://newsroom.firsthorizon.com/2023-05-04-First-Horizon-and-TD-Mutually-Agree-to-Terminate-Merger-Agreement
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
