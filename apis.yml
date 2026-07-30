@@ -25,7 +25,18 @@ description: >-
   origination, wire initiation, and host-to-host file transfer are available
   to corporate clients under direct contract through First Horizon Treasury
   Management Services but are not publicly documented.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/first-horizon-national.png
 type: Index
 access: 3rd-Party
 kind: company
